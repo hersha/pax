@@ -1,4 +1,4 @@
-require_relative '../../lib/pax'
+require_relative '../../../lib/pax/pax'
 require 'spec_helper'
 
 describe PAX::PAX do
