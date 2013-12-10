@@ -1,4 +1,4 @@
 require 'bundler/setup'
 require 'mechanize'
 
-require 'pax/pax.rb'
+require 'pax/event.rb'
