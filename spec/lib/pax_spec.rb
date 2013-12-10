@@ -1,9 +1,9 @@
 require_relative '../../lib/pax'
 require 'spec_helper'
 
-describe PAX do
-  let(:pax_prime) { PAX.new('prime') }
-  let(:pax_east) { PAX.new('east') }
+describe PAX::PAX do
+  let(:pax_prime) { PAX::PAX.new('prime') }
+  let(:pax_east) { PAX::PAX.new('east') }
   let(:html_header) { {content_type: 'text/html'} }
   it 'scrapes the PAX Prime website' do
     stub_request(:get, 'prime.paxsite.com').to_return(body: 'prime')
